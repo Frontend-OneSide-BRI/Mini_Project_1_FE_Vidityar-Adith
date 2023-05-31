@@ -54,7 +54,7 @@ header::before {
   right: 0;
   bottom: 0;
   display: block;
-  background: url(/assets/background.jpg);
+  background: url("https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80");
   background-size: cover;
   transform-origin: center center 0;
   transform: translateZ(-1px) scale(2);
@@ -92,6 +92,10 @@ section {
 
 .cardImageItem img {
   filter: grayscale(0);
+}
+
+.footerRow {
+  background: #45526e;
 }
 
 @media only screen and (max-width: 590px) {
