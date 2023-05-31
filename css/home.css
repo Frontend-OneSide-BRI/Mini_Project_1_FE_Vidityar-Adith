@@ -1,0 +1,29 @@
+.carousel-inner {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.feature-content {
+  margin: 30px 50px;
+  padding: 30px 50px;
+  border: 2px solid #31353a;
+  border-radius: 10px;
+  background-color: #31353a;
+}
+
+.feature-content button {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #58c758;
+  background: #035903;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .carousel-inner {
+    width: 100%;
+  }
+}
